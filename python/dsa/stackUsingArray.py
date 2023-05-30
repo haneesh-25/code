@@ -32,12 +32,3 @@ class Stack:
             for i in range(0,self.top+1):
                 newArray[i] = self.A[i]
             self.A = newArray        
-
-
-names = Stack(3)
-names.push('byreddy')
-names.push('haneesh')
-names.peek()
-names.push('reddy')
-names.push('reddy1')
-names.peek()
